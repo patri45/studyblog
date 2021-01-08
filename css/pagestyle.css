@@ -21,7 +21,10 @@
 }
 
 /*全局*/
+
 html {
+	margin: 0;
+	padding: 0;
 	background: #f1f3f1;
 }
 body {
@@ -256,6 +259,11 @@ figcaption {
 figure img {
 	margin-bottom: 0px;
 }
+/*按钮*/
+button {
+	font-family: "PingFang SC Regular";
+}
+
 /*选中文字颜色搭配*/
 ::selection { background:#dae3ea;}
 pre ::selection { background:3e4451;color:white;}
